@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R.E.A.C.T. LLC - Advertising, Marketing, SEO, Brand Consulting</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fdfdfd;
+        color: #222;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    header, section {
+        padding: 80px 120px;
+        position: relative;
+    }
+
+    h1, h2, h3 {
+        color: #111;
+    }
+
+    h1 {
+        font-size: 3em;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        border-left: 6px solid #007bff;
+        padding-left: 10px;
+    }
+
+    nav {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 220px;
+        background-color: #111;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 15px 0;
+        font-weight: bold;
+        font-size: 1.1em;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #007bff;
+    }
+
+    section {
+        margin-right: 220px;
+    }
+
+    .hero {
+        text-align: left;
+        background-color: #f4f6fa;
+    }
+
+    .hero img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin-top: 40px;
+    }
+
+    .services table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 20px;
+    }
+
+    .services td {
+        background: #eef3fc;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .advantages, .process {
+        background-color: #f8f8f8;
+        padding: 80px 120px;
+    }
+
+    .contact {
+        background-color: #111;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact h2 {
+        color: #007bff;
+    }
+
+    .contact form {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .contact input, .contact textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .contact button {
+        background-color: #007bff;
+        color: white;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact button:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#advantages">Why Us</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <h1>R.E.A.C.T. LLC</h1>
+    <p style="font-size:1.2em;">We help ambitious brands rise above the noise.  
+    Through a fusion of data-driven marketing, strategic creativity, and deep SEO insights,  
+    we transform business goals into visible, measurable growth.</p>
+    <img src="https://plus.unsplash.com/premium_vector-1750243176566-5b1c6bb9713b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880" alt="Creative Marketing Image">
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>Who We Are</h2>
+    <p>At R.E.A.C.T. LLC, we are more than a marketing agency — we are strategic growth partners.  
+    Founded by professionals who have worked with both startups and Fortune 500 brands, our mission is to help businesses establish a powerful digital presence.  
+    We specialize in uncovering the unique DNA of every brand and translating it into a consistent, results-oriented marketing strategy.  
+    Our team blends creativity, analytics, and technology to deliver campaigns that not only reach audiences but move them to action.  
+    From brand positioning to performance optimization, R.E.A.C.T. ensures that every message matters and every impression counts.</p>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services" class="services">
+    <h2>Our Core Expertise</h2>
+    <table>
+        <tr>
+            <td>
+                <h3>Advertising Strategy</h3>
+                <p>We create tailored ad campaigns across digital platforms that maximize visibility, engagement, and ROI.  
+                Every placement is guided by data insights and crafted to connect meaningfully with your target audience.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>SEO & Organic Growth</h3>
+                <p>From deep keyword research to technical optimization, our SEO approach builds long-term traffic sustainability.  
+                We position your brand to dominate search results while aligning with Google’s latest algorithms.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Brand Consulting & Identity</h3>
+                <p>We help brands define who they are, what they stand for, and how to communicate their value clearly.  
+                Through design, tone, and positioning, we ensure your brand story resonates with precision and purpose.</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<!-- ADVANTAGES SECTION -->
+<section id="advantages" class="advantages">
+    <h2>Why Clients Choose R.E.A.C.T.</h2>
+    <h3>1. Strategy First</h3>
+    <p>We don’t guess — we plan. Every decision is backed by research, analytics, and measurable objectives.</p>
+    <h3>2. Collaborative Partnership</h3>
+    <p>We work side by side with our clients, ensuring their vision drives every stage of execution.</p>
+    <h3>3. Proven Results</h3>
+    <p>Our campaigns consistently deliver growth metrics — from lead generation to increased brand equity.</p>
+</section>
+
+<!-- PROCESS SECTION -->
+<section id="process" class="process">
+    <h2>How We Work</h2>
+    <h3>Step 1: Discovery & Insight</h3>
+    <p>We start with a deep understanding of your brand, market, and goals. Research and data guide every next move.</p>
+    <h3>Step 2: Strategy & Creation</h3>
+    <p>We design tailored strategies and creative assets that align with your audience and business objectives.</p>
+    <h3>Step 3: Launch & Optimization</h3>
+    <p>Campaigns go live with continuous monitoring, A/B testing, and real-time optimization for maximum performance.</p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2>Let’s Build Something Impactful</h2>
+    <p>Ready to amplify your brand’s voice and visibility?  
+    Get in touch with our team today — together, we’ll craft the strategies that turn ideas into measurable results.</p>
+    <p><strong>Email:</strong> <a href="mailto:office@react-llc.agency" style="color:#007bff;">office@react-llc.agency</a></p>
+    <p><strong>Address:</strong> 410 W Lacey Ave, Hayden, ID 83835, US</p>
+
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
